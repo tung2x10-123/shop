@@ -1,0 +1,84 @@
+.footers a {color:#696969;}
+.footers p {color:#696969;}
+.footers ul {line-height:30px;}
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .001s;
+ }
+ .footers-logo {
+    margin-top: 12px;
+ }
+ .mt-12 {
+     margin-top: 12px;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .001s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .001s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .001s;
+ }
+
+ .footers {
+     margin-top: 500px;
+ }
+ h4 {
+     font-weight: bold;
+ }
+
+.footers__container {
+    padding: 40px 15px 20px;
+ }
+.bg__content {
+    margin-top: 40px;
+    background-color: #f8f8f8;
+    padding: 40px 15px 20px;
+}
+p.copyright {
+    padding: 3px 0;
+    font-size: 16px;
+    color:#696969;
+}
+.fs-15 {
+    font-size: 15px;
+}
+
+ input {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 20px;
+    outline: none;
+    padding:10px 0 10px 20px;
+ }
+
+.btn1 {
+    float: right;
+    background: #484848;
+    box-shadow: none;
+    border: 0;
+    color: #FFF;
+    padding: 14px 25px;
+    line-height: 1;
+    font-size: 12px;
+    border-radius: 30px;
+    outline: none;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    
+ }
+.btn1:hover {
+    background-color: #b41712;
+    text-decoration: none;
+ }
+
