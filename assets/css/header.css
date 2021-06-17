@@ -47,7 +47,7 @@
 .header__navbar-list li a {
     text-decoration: none;
     line-height: 69px;
-    padding:0 24px;
+    padding-right:24px;
     display: block;
     
 }
