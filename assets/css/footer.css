@@ -25,7 +25,7 @@
  }
 
  .footers {
-     margin-top: 500px;
+     
  }
  h4 {
      font-weight: bold;
@@ -82,3 +82,81 @@ p.copyright {
     text-decoration: none;
  }
 
+
+
+.top-footer {
+     background-color: #b41712;;
+     padding: 24px;
+ }
+
+.top-footer div.left {
+    color: #FFFFFF;
+}
+
+.top-footer div.left {
+    font-family: serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.top-footer .menu-search {
+    background: #fff;
+    border: none;
+}
+
+.menu-search {
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.top-footer .menu-search input.search-field {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.menu-search input.search-field {
+    border: 0;
+    outline: 0;
+    border-left: 0.5px solid #DDDDDD;
+    background: transparent;
+    line-height: 40px;
+    padding: 0;
+    padding-left: 24px;
+    height: 42px;
+    color: #606060;
+    width: 40%;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+.menu-search .btn.btn-primary {
+    background: #484848;
+    float: right;
+    line-height: 40px;
+    padding: 0;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 43px;
+    position: relative;
+    box-shadow: none;
+    outline: 0;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+}
+
+.menu-search .btn.btn-primary:hover {
+    background-color: #d34836;
+}
+
+.search-icon {
+    margin: 0;
+}

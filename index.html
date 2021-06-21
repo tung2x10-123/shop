@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/auctioned.css">
+    <link rel="stylesheet" href="assets/css/tag.css">
+    <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -36,10 +40,20 @@
                  </p>
                 </div>
             </div>
+            <div class="col-md-6">
+                <img src="assets/img/logo.jpg" alt="" style="width: 50px;">
+            </div>
+            <div class="col-md-6">
+                <form name="myform" method="GET" class="woocommerce-product-search menu-search" action="/">
+                    <input id="searchKeywordFooter" type="text" name="" class="search-field" maxlength="128" value="" placeholder="Tìm kiếm...">
+                    <button type="button" class="btn btn-primary" onclick="searchFooter()"><i class="fa fa-search search-icon" aria-hidden="true"></i></button>
+                </form>
+            </div>
             </div>
         </div>
+       
         <div class="bar"></div>
-
+        
         <div class="header__background">
             <div class="container">
                <div class="header__navbar">
@@ -74,83 +88,337 @@
                    </ul>
                </div>
         </div>
+       
         </div>
+        
  
 </div>
+
+
 <!-- End header -->
+
+
+<!-- Start Body -->
+
+<div class="content">
+    <div class="container">
+        <!-- Start auctioned  -->
+        <div class="auctioned">
+            <div class="title-subtile-holder">        
+                <h2 class="section-title">
+                    Tài sản sắp được đấu giá
+                </h2>
+            </div>
+            <div class="auctioned-container">
+                <div class="col-sm-6 col-md-3 left-margin">
+                    <div class="container-bg">
+                        <div class="container-img">
+                            <a href=""><img src="assets/img/capdongthanhhoa.jpg" alt=""></a>
+                        </div>
+                        <div class="container-text">
+                            <div class="container-title">
+                                <a href="#">
+                                    Cáp đồng thanh lý các loại của Viễn thông Thanh Hóa
+                                </a>
+                            </div>
+                            <div class="container-price">
+                                <span>Giá khởi điểm:</span><br>
+                                <span class="price">25.755.949.000</span>
+                                VND
+                            </div>
+                            <div class="container-date">
+                                Thời gian: 21/06/2021 09:00
+                            </div>
+                        </div>
+                    </div>
+                     
+                </div>
+                <div class="col-sm-6 col-md-3 left-margin">
+                    <div class="container-bg">
+                        <div class="container-img">
+                           <a href="#"><img src="assets/img/lo1.jpg" alt=""></a> 
+                        </div>
+                        <div class="container-text">
+                        <div class="container-title">
+                            <a href="#">  
+                                Lô tài sản số 1 – Cáp đồng thanh lý các loại - Viễn thông Tuyên Quang
+                            </a>
+                        </div>
+                        <div class="container-price">
+                            <span>Giá khởi điểm:</span><br>
+                            <span class="price">25.755.949.000</span>
+                            VND
+                        </div>
+                        <div class="container-date">
+                            Thời gian: 21/06/2021 09:00
+                        </div>
+                        </div>
+                    </div>
+                     
+                </div>
+                <div class="col-sm-6 col-md-3 left-margin">
+                    <div class="container-bg">
+                        <div class="container-img">
+                           <a href="#"><img src="assets/img/lo2.jpg" alt=""></a> 
+                        </div>
+                        <div class="container-text">
+                            <div class="container-title">
+                                <a href="#">
+                                    Lô số 2: Acquy, thiết bị điện, điện tử và các loại tài sản khác đã hư hỏng
+    
+                                </a>
+                            </div>
+                            <div class="container-price">
+                                <span>Giá khởi điểm:</span><br>
+                                <span class="price">25.755.949.000</span>
+                                VND
+                            </div>
+                            <div class="container-date">
+                                Thời gian: 21/06/2021 09:00
+                            </div>
+                        </div>     
+                    </div>
+          
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!-- End auctioned  -->
+
+        <!-- Start Tag -->
+        <div class="tag">
+           <div class="col-md-6">
+               <div class="row">
+                <div class="col-md-6 masonry_banner HomeCategoryCol1">
+                    <a href="#" class="relative ">
+                        <img style="height:312px; width:100%" src="assets/img/tai_san_cong.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder navA">
+                            <h3 class="category_name">Tài sản công</h3>
+                            <p class="category_count">Tài sản (33)</p><span class="read-more">XEM THÊM</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 masonry_banner HomeCategoryCol2">
+                    <a href="#" class="relative">
+                        <img style="height:312px; width:100%" src="assets/img/xe_co.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder navA">
+                            <h3 class="category_name">Xe cộ</h3>
+                            <p class="category_count">Tài sản (4)</p><span class="read-more">XEM THÊM</span>
+                        </div>
+                    </a>
+                </div>
+               </div>
+                   <div class="masonry_banner dark-skin"  style="background-color: #252525!important; margin-right: -11px;
+                   margin-left: -13px;">  
+                    <a href="#" class="relative">
+                        <img style="width:100%; height:433px" src="assets/img/nghe_thuat.jpg" alt="">
+                        <div style="z-index:999" class="masonry_holder navA">
+                            <h3 class="category_name">Sưu tầm - Nghệ thuật</h3>
+                            <p class="category_count">Tài sản (9)</p><span class="read-more">XEM THÊM</span>
+                        </div>
+                    </a>
+                </div>
+           </div>
+
+           <div class="col-md-6">
+            <div class="masonry_banner dark-skin"  style="background-color: #252525!important;  margin-right: -11px;
+            margin-left: -13px;">  
+             <a href="#" class="relative">
+                 <img style="width:100%; height:433px" src="assets/img/bat_dong_san.jpg" alt="">
+                 <div style="z-index:999" class="masonry_holder navA">
+                     <h3 class="category_name">Sưu tầm - Nghệ thuật</h3>
+                     <p class="category_count">Tài sản (9)</p><span class="read-more">XEM THÊM</span>
+                 </div>
+             </a>
+         </div>
+            <div class="row">
+                <div class="col-md-6 masonry_banner HomeCategoryCol1">
+                    <a href="#" class="relative ">
+                        <img style="height:312px; width:100%" src="assets/img/hang_hieu.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder navA">
+                            <h3 class="category_name">Tài sản công</h3>
+                            <p class="category_count">Tài sản (33)</p><span class="read-more">XEM THÊM</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 masonry_banner HomeCategoryCol2">
+                    <a href="#" class="relative">
+                        <img style="height:312px; width:100%" src="assets/img/TaiSanKhac.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder navA">
+                            <h3 class="category_name">Xe cộ</h3>
+                            <p class="category_count">Tài sản (4)</p><span class="read-more">XEM THÊM</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+           </div>
+           <div class="clear"></div>
+        </div>
+        <!-- End Tag -->
+
+
+
+        <!-- Start products  -->
+           
+        <!-- End products -->
+
+        <!-- Start contact -->
+        <div class="contact">
+            <div class="container">
+                <div class="col-md-12 left-margin">
+                    <div class="row">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post">
+                                <fieldset>
+                                    <legend class="text-center section-title">Liên hệ</legend>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="fname" name="name" type="text" placeholder="Tên" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="lname" name="name" type="text" placeholder="Họ" class="form-control">
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="email" name="email" type="text" placeholder="Địa chỉ Email" class="form-control">
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <input id="phone" name="phone" type="text" placeholder="Số điện thoại" class="form-control">
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <textarea class="form-control" id="message" name="message" placeholder="Hãy nhập tin nhắn của bạn" rows="7"></textarea>
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+
+        <!-- End contact -->
+
+    </div>
+</div>
+<!-- End Body -->
+
+
+
 
 
 
 
 <!-- Start Footer -->
 
-<section class="footers pt-5 pb-3 footers__container">
-    <div class="container pt-5 fs-15">
+
+<div class="top-footer row">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3 footers-one">
-                 <div class="footers-logo">
-                     <img src="http://velikorodnov.com/html/autotrader/images/logo.png" alt="Logo" style="width:120px;">
-                 </div>
-                 <div class="footers-info mt-12">
-                     <p>info@lacvietauction.vn<br>
-                        024.32.115.234
-                     </p>
-                 </div>
-                 <div class="social-icons"> 
-                 <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
-                 <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
-                 <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
-                 <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
-             </div>
-             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 footers-two">
-                 <h4>Về chúng tôi </h4>
-                 <ul class="list-unstyled">
-                  <li><a href="maintenance.html">Giới thiệu</a></li>
-                  <li><a href="contact.html">Quy chế hoạt động</a></li>
-                  <li><a href="about.html">Cơ chế giải quyết tranh chấp</a></li>
-                  <li><a href="about.html">Tài liệu hướng dẫn sử dụng</a></li>
-                 </ul>
-             </div>
-            <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
-                 <h4>Chính sách</h4>
-                 <ul class="list-unstyled">
-                  <li><a href="maintenance.html">Điều lệ tham gia đấu giá</a></li>
-                  <li><a href="contact.html">Văn bản pháp quy</a></li>
-                  <li><a href="about.html">Chính sách bảo mật thông tin</a></li>
-                 </ul>
-             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 footers-four">
-                 <h4>Đăng ký nhận tin qua Email </h4>
-                 <input type="email" class="email-msg" placeholder="Nhập email của bạn" >  
-                 <a href="#" class="btn1">Đăng ký</a>
-             </div>
+            <div class="col-md-8 left">Tìm kiếm cơ hội của bạn ngay hôm nay !</div>
+            <div class="col-md-4">
+                <form name="myform" method="GET" class="woocommerce-product-search menu-search" action="/">
+                    <input id="searchKeywordFooter" type="text" name="" class="search-field" maxlength="128" value="" placeholder="Tìm kiếm...">
+                    <button type="button" class="btn btn-primary" onclick="searchFooter()"><i class="fa fa-search search-icon" aria-hidden="true"></i></button>
+                </form>
+            </div>
         </div>
     </div>
- </section>
+</div>
 
- <section class="bg__content">
-     <div class="container">
-         <div class="row ">
-             <div class="col-md-7">
-                <p class="copyright">CÔNG TY ĐẤU GIÁ HỢP DANH </p>
-                <p class="copyright">Địa chỉ: Số 49 Văn Cao, phường Liễu Giai, quận Ba Đình, TP. Hà Nội.</p>
-                <p class="copyright">Điện thoại: 0243.2115234</p>
-                <p class="copyright">Đại diện: bà Đỗ Thị Hồng Hạnh - Chức vụ: Tổng Giám đốc</p>
-                <p class="copyright">Email: daugialacviet9999@gmail.com</p>
-                <p class="copyright">Giấy đăng ký hoạt động số: 01/TP-ĐKHĐ do Sở tư pháp Thành phố Hà Nội Cấp ngày 07/08/2017</p>
-                <p class="copyright">Copyrighted to Lac Viet - Online JSC & Lac Viet Auction Partnership. | Powered by Novatic 2020</p>
-
-             </div>
-             <div class="col-md-5">
-                 <p class="copyright">CÔNG TY CỔ PHẦN LẠC VIỆT - ONLINE</p>
-                 <p class="copyright">Địa chỉ: Số 49 Văn Cao, phường Liễu Giai, quận Ba Đình, TP. Hà Nội.</p>
-                 <p class="copyright">Mã số thuế: 0108745551</p>
-                 <p class="copyright">Đại diện: ông Nguyễn Trọng Hùng - Chức vụ: Giám đốc</p>
+    <section class="footers pt-5 pb-3 footers__container">
+        <div class="container pt-5 fs-15">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 footers-one">
+                     <div class="footers-logo">
+                         <img src="http://velikorodnov.com/html/autotrader/images/logo.png" alt="Logo" style="width:120px;">
+                     </div>
+                     <div class="footers-info mt-12">
+                         <p>info@lacvietauction.vn<br>
+                            024.32.115.234
+                         </p>
+                     </div>
+                     <div class="social-icons"> 
+                     <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                     <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+                     <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
+                     <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                 </div>
+                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 footers-two">
+                     <h4>Về chúng tôi </h4>
+                     <ul class="list-unstyled">
+                      <li><a href="maintenance.html">Giới thiệu</a></li>
+                      <li><a href="contact.html">Quy chế hoạt động</a></li>
+                      <li><a href="about.html">Cơ chế giải quyết tranh chấp</a></li>
+                      <li><a href="about.html">Tài liệu hướng dẫn sử dụng</a></li>
+                     </ul>
+                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+                     <h4>Chính sách</h4>
+                     <ul class="list-unstyled">
+                      <li><a href="maintenance.html">Điều lệ tham gia đấu giá</a></li>
+                      <li><a href="contact.html">Văn bản pháp quy</a></li>
+                      <li><a href="about.html">Chính sách bảo mật thông tin</a></li>
+                     </ul>
+                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 footers-four">
+                     <h4>Đăng ký nhận tin qua Email </h4>
+                     <input type="email" class="email-msg" placeholder="Nhập email của bạn" >  
+                     <a href="#" class="btn1">Đăng ký</a>
+                 </div>
+            </div>
+        </div>
+     </section>
+    
+     <section class="bg__content">
+         <div class="container">
+             <div class="row ">
+                 <div class="col-md-7">
+                    <p class="copyright">CÔNG TY ĐẤU GIÁ HỢP DANH </p>
+                    <p class="copyright">Địa chỉ: Số 49 Văn Cao, phường Liễu Giai, quận Ba Đình, TP. Hà Nội.</p>
+                    <p class="copyright">Điện thoại: 0243.2115234</p>
+                    <p class="copyright">Đại diện: bà Đỗ Thị Hồng Hạnh - Chức vụ: Tổng Giám đốc</p>
+                    <p class="copyright">Email: daugialacviet9999@gmail.com</p>
+                    <p class="copyright">Giấy đăng ký hoạt động số: 01/TP-ĐKHĐ do Sở tư pháp Thành phố Hà Nội Cấp ngày 07/08/2017</p>
+                    <p class="copyright">Copyrighted to Lac Viet - Online JSC & Lac Viet Auction Partnership. | Powered by Novatic 2020</p>
+    
+                 </div>
+                 <div class="col-md-5">
+                     <p class="copyright">CÔNG TY CỔ PHẦN LẠC VIỆT - ONLINE</p>
+                     <p class="copyright">Địa chỉ: Số 49 Văn Cao, phường Liễu Giai, quận Ba Đình, TP. Hà Nội.</p>
+                     <p class="copyright">Mã số thuế: 0108745551</p>
+                     <p class="copyright">Đại diện: ông Nguyễn Trọng Hùng - Chức vụ: Giám đốc</p>
+                 </div>
              </div>
          </div>
-     </div>
- </section>
+     </section>
+
 
     
 <!-- End Footer -->
