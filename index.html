@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/products.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="assets/js/bootstrap.js"></script>
@@ -41,7 +42,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="assets/img/logo.jpg" alt="" style="width: 50px;">
+                <a href=""><img src="assets/img/logo.jpg" class="logo-branch" alt="" style="width: 50px;"></a>
             </div>
             <div class="col-md-6">
                 <form name="myform" method="GET" class="woocommerce-product-search menu-search" action="/">
@@ -86,12 +87,100 @@
                        <li class="list-item"><a href="#">Giới thiệu</a></li>
                        <li class="list-item"><a href="#">Liên hệ bán tài sản</a></li>
                    </ul>
+                  
                </div>
+              
+               
         </div>
        
         </div>
         
- 
+            <div onclick="openMobie()" class="header__menu-popup col-md-6">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+      
+<!-- Mobie Menu -->
+        <div class="header__popup ">
+            <div class="header__popup-menu">
+                <div class="menu__top">
+                    <img src="assets/img/dark-logo.png"></img>
+                    <div class="search__icon-bar"></div>
+                    <div onclick="closeMobie()" class="close__btn"></div>
+                </div>
+                <div class="menu__list">
+                    <ul class="menu__list-item">
+                        <li class="item__menu">
+                            <a href="">Danh mục tài sản</a>
+                            <i class="fas fa-chevron-down "></i>
+                            <ul class="menu__sub">
+                                <li class="menu__sub-item">
+                                    <a href="">Tài sản công</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Bất động sản</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Phương tiện - xe cộ</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Sưu tầm - nghệ thuật</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Hàng hiệu xa xỉ</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Tang vật bị tịch thu</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Tài sản khác</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item__menu">
+                            <a href="">Cuộc đấu giá</a>
+                            <i class="fas fa-chevron-down "></i>
+                            <ul class="menu__sub">
+                                <li class="menu__sub-item">
+                                    <a href="">Cuộc đấu giá sắp bắt đầu</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Cuộc đấu giá đang diễn ra</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Cuộc đấu giá sắp kết thúc</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item__menu">
+                            <a href="">Tin tức</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="menu__sub">
+                                <li class="menu__sub-item">
+                                    <a href="">Thông báo đấu giá</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Kết quả đấu giá</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a href="">Tin khác</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item__menu">
+                            <a href="">Giới thiệu</a>
+                        </li>
+
+                        <li class="item__menu">
+                            <a href="">Liên hệ bán tài sản</a>
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
 </div>
 
 
@@ -180,6 +269,7 @@
                     </div>
           
                 </div>
+                <div class="clear"></div>
             </div>
             <div class="clear"></div>
         </div>
@@ -189,19 +279,19 @@
         <div class="tag">
            <div class="col-md-6">
                <div class="row">
-                <div class="col-md-6 masonry_banner HomeCategoryCol1">
+                <div class="col-md-6 col-sm-12 masonry_banner HomeCategoryCol1">
                     <a href="#" class="relative ">
-                        <img style="height:312px; width:100%" src="assets/img/tai_san_cong.jpg" alt="">
-                        <div style="z-index: 999;" class="masonry_holder navA">
+                        <img style="height:312px; width:100%" class="resize" src="assets/img/tai_san_cong.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder ">
                             <h3 class="category_name">Tài sản công</h3>
                             <p class="category_count">Tài sản (33)</p><span class="read-more">XEM THÊM</span>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 masonry_banner HomeCategoryCol2">
+                <div class="col-md-6 col-sm-12 masonry_banner HomeCategoryCol2">
                     <a href="#" class="relative">
-                        <img style="height:312px; width:100%" src="assets/img/xe_co.jpg" alt="">
-                        <div style="z-index: 999;" class="masonry_holder navA">
+                        <img style="height:312px; width:100%" class="resize" src="assets/img/xe_co.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder ">
                             <h3 class="category_name">Xe cộ</h3>
                             <p class="category_count">Tài sản (4)</p><span class="read-more">XEM THÊM</span>
                         </div>
@@ -211,8 +301,8 @@
                    <div class="masonry_banner dark-skin"  style="background-color: #252525!important; margin-right: -11px;
                    margin-left: -13px;">  
                     <a href="#" class="relative">
-                        <img style="width:100%; height:433px" src="assets/img/nghe_thuat.jpg" alt="">
-                        <div style="z-index:999" class="masonry_holder navA">
+                        <img style="width:100%; height:433px" class="resize1"  src="assets/img/nghe_thuat.jpg" alt="">
+                        <div style="z-index:999" class="masonry_holder ">
                             <h3 class="category_name">Sưu tầm - Nghệ thuật</h3>
                             <p class="category_count">Tài sản (9)</p><span class="read-more">XEM THÊM</span>
                         </div>
@@ -224,8 +314,8 @@
             <div class="masonry_banner dark-skin"  style="background-color: #252525!important;  margin-right: -11px;
             margin-left: -13px;">  
              <a href="#" class="relative">
-                 <img style="width:100%; height:433px" src="assets/img/bat_dong_san.jpg" alt="">
-                 <div style="z-index:999" class="masonry_holder navA">
+                 <img style="width:100%; height:433px" class="resize1" src="assets/img/bat_dong_san.jpg" alt="">
+                 <div style="z-index:999" class="masonry_holder ">
                      <h3 class="category_name">Sưu tầm - Nghệ thuật</h3>
                      <p class="category_count">Tài sản (9)</p><span class="read-more">XEM THÊM</span>
                  </div>
@@ -234,8 +324,8 @@
             <div class="row">
                 <div class="col-md-6 masonry_banner HomeCategoryCol1">
                     <a href="#" class="relative ">
-                        <img style="height:312px; width:100%" src="assets/img/hang_hieu.jpg" alt="">
-                        <div style="z-index: 999;" class="masonry_holder navA">
+                        <img style="height:312px; width:100%" class="resize" src="assets/img/hang_hieu.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder">
                             <h3 class="category_name">Tài sản công</h3>
                             <p class="category_count">Tài sản (33)</p><span class="read-more">XEM THÊM</span>
                         </div>
@@ -243,8 +333,8 @@
                 </div>
                 <div class="col-md-6 masonry_banner HomeCategoryCol2">
                     <a href="#" class="relative">
-                        <img style="height:312px; width:100%" src="assets/img/TaiSanKhac.jpg" alt="">
-                        <div style="z-index: 999;" class="masonry_holder navA">
+                        <img style="height:312px; width:100%" class="resize" src="assets/img/TaiSanKhac.jpg" alt="">
+                        <div style="z-index: 999;" class="masonry_holder">
                             <h3 class="category_name">Xe cộ</h3>
                             <p class="category_count">Tài sản (4)</p><span class="read-more">XEM THÊM</span>
                         </div>
@@ -259,7 +349,131 @@
 
 
         <!-- Start products  -->
-           
+        <div class="products">
+            <div class="container">
+                <div class="row mt-5">
+                    <h2 class="list-product-title">Sưu tầm nghệ thuật</h2>
+                    <div class="list-product-subtitle">
+                        <p>List product description</p>
+                    </div>
+                    <div class="product-group">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">
+                                        Đấu giá tác phẩm nghệ thuật Phía sau cổng làng
+                                    </h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Product</h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Product</h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Product</h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                                </div>
+                            </div>				
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <h2 class="list-product-title">Bất động sản</h2>
+                    <div class="list-product-subtitle">
+                        <p>List product description</p>
+                    </div>
+                    <div class="product-group">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">
+                                        Đấu giá tác phẩm nghệ thuật Phía sau cổng làng
+                                    </h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Đáu giá</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Product</h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Đấu giá</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Product</h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Đấu giá</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="card card-product mb-3">
+                                  <img class="card-img-top" src="http://via.placeholder.com/280x280" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Product</h5>
+                                    <p class="card-owner">Chủ tài sản: Công ty đấu giá hợp danh Lạc Việt</p>
+                                    <p class="card-price">Giá khởi điểm: <span>20.000.000 VNĐ</span></p>
+                                    <p class="card-time">Thời gian đấu giá: 01/08/2020 08:00</p>
+                                    <a href="#" class="btn btn-primary">Đấu giá</a>
+                                  </div>
+                                </div>
+                            </div>				
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
         <!-- End products -->
 
         <!-- Start contact -->
@@ -268,10 +482,9 @@
                 <div class="col-md-12 left-margin">
                     <div class="row">
                         <div class="well well-sm">
+                            <legend class="text-center section-title">Liên hệ</legend>
                             <form class="form-horizontal" method="post">
                                 <fieldset>
-                                    <legend class="text-center section-title">Liên hệ</legend>
-            
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                         <div class="col-md-8">
@@ -323,7 +536,7 @@
 
 
         <!-- End contact -->
-
+    
     </div>
 </div>
 <!-- End Body -->
@@ -359,7 +572,7 @@
                          <img src="http://velikorodnov.com/html/autotrader/images/logo.png" alt="Logo" style="width:120px;">
                      </div>
                      <div class="footers-info mt-12">
-                         <p>info@lacvietauction.vn<br>
+                         <p>info@abcd.vn<br>
                             024.32.115.234
                          </p>
                      </div>
@@ -404,7 +617,7 @@
                     <p class="copyright">Địa chỉ: Số 49 Văn Cao, phường Liễu Giai, quận Ba Đình, TP. Hà Nội.</p>
                     <p class="copyright">Điện thoại: 0243.2115234</p>
                     <p class="copyright">Đại diện: bà Đỗ Thị Hồng Hạnh - Chức vụ: Tổng Giám đốc</p>
-                    <p class="copyright">Email: daugialacviet9999@gmail.com</p>
+                    <p class="copyright">Email: daugial@gmail.com</p>
                     <p class="copyright">Giấy đăng ký hoạt động số: 01/TP-ĐKHĐ do Sở tư pháp Thành phố Hà Nội Cấp ngày 07/08/2017</p>
                     <p class="copyright">Copyrighted to Lac Viet - Online JSC & Lac Viet Auction Partnership. | Powered by Novatic 2020</p>
     
@@ -423,24 +636,21 @@
     
 <!-- End Footer -->
 
-<script src="./assets/js/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/jquery-3.6.0.min.js"></script>
 <script>
-    $(document).ready( function() {
-$("li.dropdown-submenu > a").on("click", function(){
-$("li.dropdown-submenu").removeClass("open");
-if($(this).parent("li.dropdown-submenu").hasClass("in-use")){
-$(this).parents("li.dropdown-submenu").addClass("open");
-$(this).parent("li.dropdown-submenu").removeClass("open");
-$(this).parent("li.dropdown-submenu").removeClass("in-use");
-$(this).siblings('ul.dropdown-menu').children("li.dropdown-submenu").removeClass("open");
-$(this).siblings('ul.dropdown-menu').children("li.dropdown-submenu").removeClass("in-use");
-} else {
-$(this).parents("li.dropdown-submenu").addClass("open");
-$(this).parents("li.dropdown-submenu").addClass("in-use");
+  var menuSubBtn=document.querySelectorAll('.item__menu i');
+    for(i=0;i<menuSubBtn.length;i++)
+{   
+    menuSubBtn[i].addEventListener('click',function(){
+        this.classList.toggle('drop_up');
+        var a= this.parentElement;
+        var b=a.getElementsByTagName('ul');
+        for(i=0;i<b.length;i++)
+        {
+            b[i].classList.toggle('max-height350px');
+        }
+    })
 }
-return false;
-});
-});
 </script>
 
 <script src="assets/js/script.js"></script>

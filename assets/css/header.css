@@ -20,12 +20,12 @@
 
 .header .header__background {
     background-color: #b41712;
-    height: 69px;
 }
 
 .header__navbar {
     top:0;
     bottom: 0;
+    height: 69px;
 }
 
 .header__navbar-list {
@@ -36,8 +36,11 @@
     display:inline-block;
 }
 
+
+
 .header__navbar-list li {
     position: relative;
+    z-index: 99999;
 }
 
 .header__navbar-list > li > a{
@@ -67,11 +70,13 @@
 }
 .header__navbar-list .subnav a {
     color:#000;
-    padding:12px 30px;
+    padding:0px 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     text-transform: capitalize;
     
 }
+
+
 .header__navbar-list li:hover .subnav{
     display: block;
 }
@@ -80,4 +85,161 @@
     width: 20px;
     text-align: center;
 }
+
+/* Popup menu */
+ 
+.header__popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    cursor: url(assets/img/light-close.png) 16 16, pointer;
+    transition: all .3s ease;
+}
+.open__popup{
+    opacity: 1;
+    visibility: visible;
+}
+.header__popup .header__popup-menu{
+    position: relative;
+    height: 100%;
+    text-align: left;
+    transition: all .3s;
+    background: #fff;
+    cursor: default;
+    width: 300px;
+    float: right;
+    /* transform: translateX(100%); */
+ }
+.header__popup .header__popup-menu .menu__top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 82px;
+}
+
+.header .header__menu-popup {
+    display: none;
+}
+
+.close__btn {
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: #222;
+
+}
+
+.close__btn::after, .close__btn::before {
+    position: absolute;
+    top: 19px;
+    left: 8px;
+    content: '';
+    width: 24px;
+    height: 3px;
+    background: currentColor;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.close__btn::after {
+    transform: rotate(-45deg);
+}
+
+.close__btn::before {
+    transform: rotate(45deg);
+}
+
+.close__btn:hover {
+    cursor: pointer;
+}
+
+.close__btn:hover::before {
+    transform: rotate(180deg);
+  }
+.close__btn:hover:after {
+    transform: rotate(-180deg);
+  }
+
+.header__popup .header__popup-menu .menu__top img{
+    width: 200px;
+}
+.header__popup .header__popup-menu .menu__list
+{
+    height: 100%;
+    background-color: #086ad8;
+    overflow: scroll;
+}
+.header__popup .header__popup-menu .menu__list .menu__list-item{
+    text-align: left;
+    margin: 0 25px 100px;
+    padding-top: 15px;
+}
+.header__popup .header__popup-menu .menu__list .menu__list-item .item__menu{
+    position: relative;
+}
+.header__popup .header__popup-menu .menu__list .menu__list-item .item__menu li{
+    position: relative;
+}
+.header__popup .header__popup-menu .menu__list .menu__list-item .item__menu i{
+    color: #fff;
+    padding: 12px;
+    background-color: #487cec;
+    font-size: 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    right: 0;
+    transition: all 0.3s linear;
+}
+.header__popup .header__popup-menu .menu__list .menu__list-item .item__menu a
+{
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #5288ec;
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.header__popup .header__popup-menu .menu__list .menu__list-item .item__menu .menu__sub
+{
+    max-height: 0px;
+    overflow: hidden;
+    line-height: 1.6;
+    transition: max-height 0.35s linear;
+}
+.header__popup .header__popup-menu .menu__list .menu__list-item .item__menu .menu__sub li a{
+   border-bottom: none;
+   text-decoration: none;
+   font-size: 14px;
+   color: rgba(255, 255, 255, 0.7);
+   padding-top: 20px;
+   display: block;
+}
+.max-height350px{
+    max-height: 350px!important;
+}
+.drop_up{
+    transform: rotate(180deg);
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+} 
+
+
 

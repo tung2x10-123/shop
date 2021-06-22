@@ -27,7 +27,7 @@ a {
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 38px;
     line-height: 1.2;
     margin-bottom: 0;
     color: #242424;;
@@ -45,9 +45,9 @@ a {
     width: 100%;
 }
 .container-img img {
-    width: 252px;
-    height: 240px;
     border-radius: 5px;
+    max-width: 100%; 
+    min-height: 300px;
 }
 
 .container-img img:hover {

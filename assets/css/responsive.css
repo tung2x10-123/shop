@@ -1,0 +1,62 @@
+@media all and (max-width: 320px)  {
+    .tag .resize {
+        width: unset !important;
+    }
+    .tag .resize:nth-child(1) {
+        width:  266px  !important;
+    }
+    .tag .HomeCategoryCol1, .tag .HomeCategoryCol2 {
+        width: 100% !important;
+    }
+    .logo-branch {
+        display: none;
+    }
+    .header .header__background {
+        display: none;
+    }
+    .header .header__menu-popup {
+        display: block;
+        cursor: pointer;
+    }
+    
+    
+}
+
+@media all and (max-width:600px) {
+    .tag .HomeCategoryCol1, .tag .HomeCategoryCol2 {
+        width: 100% !important;
+        padding-right: 7px;
+        
+    }
+    .left-margin {
+    margin-right: -9px;
+    margin-left: -11px;
+    }
+    .container-bg {
+        margin-top: 24px;
+    }
+
+    .logo-branch {
+        display: none;
+    }
+    .header .header__background {
+        display: none;
+    }
+    .header .header__top{
+        display: none;
+    }
+    .header .menu-search {
+        display: none;
+    }
+
+    .header .header__menu-popup {
+        display: block;
+        cursor: pointer;
+    }
+
+    
+   
+}
+    
+
+
