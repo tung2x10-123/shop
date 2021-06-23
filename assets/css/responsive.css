@@ -18,7 +18,7 @@
         display: block;
         cursor: pointer;
     }
-    .product-group {
+    .news-group {
         margin-left: -10px;
         padding-right: unset !important;
     }
@@ -57,7 +57,7 @@
         display: block;
         cursor: pointer;
     }
-    .product-group {
+    .news-group {
         margin-left: -10px;
         padding-right: unset !important;
     }

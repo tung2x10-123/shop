@@ -1,0 +1,39 @@
+body {
+    font-family: Montserrat;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.content {
+    background-color: #f8f8f8;
+}
+
+.aboutUs {
+    margin-top: 50px;
+    position: relative;
+    color: #000;
+}
+
+.aboutUs-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.aboutUs-img img {
+    width: 100%;
+}
+
+.left-margin {
+    margin-left: -15px;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
