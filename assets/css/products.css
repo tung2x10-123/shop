@@ -5,6 +5,10 @@ body {
     color: #242424;
 }
 
+.product-group {
+	margin-left: -10px;
+    padding-right: 29px !important;
+}
 .list-product-title{
 	width: 100%;
 	text-transform: uppercase;
