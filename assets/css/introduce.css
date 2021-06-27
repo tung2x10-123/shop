@@ -1,0 +1,44 @@
+.introduce {
+    background: url(/assets/img/lifestyle_working_from_home_9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 200px 0;
+    background-position: center;
+}
+
+.introduce__img {
+    background:white;
+    padding: 70px 80px 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+
+.introduce__text .introduce__text-heading {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.introduce__text .introduce__text-wrap {
+    font-size: 18px;
+    color:#696969;
+    margin-top: 18px;
+}
+
+.introduce__btn {
+    color:#000;
+    background: #00c3ff;
+    border-radius: 20px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.introduce__btn:hover {
+    color: white;
+}

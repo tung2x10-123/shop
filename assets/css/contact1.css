@@ -1,0 +1,50 @@
+p {
+    font-family: Montserrat;
+    line-height: 24px;
+    font-weight: 300;
+    color: #606060;
+    font-size: 16px;
+}
+
+.bg-container {
+    background: white;
+    padding: 40px 66px 30px !important;
+}
+
+.ibid-contact-form input.wpcf7-form-control, .wpcf7-textarea{
+    background: #EFEFEF;
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    outline: none;
+}
+
+
+.wpcf7-textarea {
+    padding-right: 31px;
+}
+
+.wpcf7-form .wpcf7-submit {
+    border: 0 none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    margin-top: 10px;
+    color: #fff;
+    width: 100%;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    background: #ec1515;
+}
+
+.wpcf7-submit:hover {
+     background: #0084ff;
+     color: black;
+}
+

@@ -1,0 +1,33 @@
+.ellipsis4 {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4 !important;
+    -webkit-box-orient: vertical !important;
+}
+
+.ellipsis4 li {
+    margin-bottom: 20px;
+}
+
+.ellipsis4 li a {
+    color: #606060;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.ellipsis4 li a:hover {
+    color: steelblue;
+}
+
+
+.decoration__a {
+    text-decoration: none;
+    color: #606060;
+}
+
+
+
+
+
+

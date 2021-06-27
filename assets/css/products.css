@@ -1,0 +1,218 @@
+ul li, ol li {
+    color: #8b8b8a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.breadcrumb a {
+    color: #8b8b8a !important;
+}
+
+.ibid-breadcrumbs {
+    padding: 40px 0 0px;
+    margin-left: -33px;
+}
+
+.ibid-breadcrumbs {
+    padding: 10px 0 0px !important;
+}
+
+.ibid-breadcrumbs .row {
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.ibid-breadcrumbs {
+    padding: 20px 0 0px !important;
+}
+.ibid-breadcrumbs h1 {
+    margin: 5px 0;
+}
+.ibid-breadcrumbs h1 span, .ibid-breadcrumbs h1 {
+    font-weight: bold;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+.ibid-breadcrumbs h1 span, .ibid-breadcrumbs h1 {
+    font-size: 20px !important;
+}
+.ibid-breadcrumbs .row {
+    padding-bottom: 0px !important;
+}
+
+.ibid-breadcrumbs .breadcrumb {
+    background: transparent;
+    margin-bottom: 0px;
+    padding-right: 0;
+}
+
+.breadcrumb {
+    color: #777;
+}
+
+.breadcrumb {
+    font-size: 16px;
+    padding: 0 !important;
+    line-height: 30px;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.ibid-breadcrumbs .breadcrumb li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.breadcrumb>li {
+    display: inline-block;
+}
+
+.input-search {
+    border: 1px solid #e5ecef;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    width: 83%;
+    outline: 0;
+    margin: 10px 0;
+}
+
+/* start */
+.sidebar-content .widget {
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.woocommerce.archive .sidebar-content:not(.header7) {
+    margin-right: 30px;
+    margin-left: 0px;
+    width: 21%;
+    overflow: hidden;
+}
+
+.sidebar-content .widget-title, .dokan-widget-area .widget-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 0 0 12px;
+    position: relative;
+    padding: 0 0 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.sidebar-content .widget-title, .dokan-widget-area .widget-title {
+    font-size: 18px !important;
+}
+
+.widget-title, h3#reply-title, h2.heading-bottom {
+    font-size: 24px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.woocommerce ul.product_list_widget {
+    margin-top: 25px;
+}
+
+.woocommerce ul.cart_list, .woocommerce ul.product_list_widget {
+    list-style: none outside;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-content .widget-title, .dokan-widget-area .widget-title {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+    margin: 0 0 12px;
+    position: relative;
+    padding: 0 0 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.sidebar-content .widget-title, .dokan-widget-area .widget-title {
+    font-size: 18px !important;
+}
+.widget-title, h3#reply-title, h2.heading-bottom {
+    font-size: 24px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.woocommerce ul.cart_list, .woocommerce ul.product_list_widget {
+    /* list-style: none outside; */
+    padding: 0;
+    margin: 0;
+}
+
+.woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a {
+    color: #606060;
+    font-weight: normal;
+    position: relative;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 600 !important;
+}
+
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-left: 4px;
+    width: 32px;
+    height: auto;
+    box-shadow: none;
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float: left;
+    margin: 0 15px 0 0;
+    width: 70px;
+    border: 1px solid #dfe5e9;
+}
+
+
+.product-categories li a {
+    color: #606060;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.product-categories li a:hover {
+    color: rgb(0, 153, 255);
+}
+
+.btn__click {
+    float: right;
+}
+
+.btn__number {
+    background:white;
+    color:#000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.btn__number:hover {
+    background-color: #0d76ff;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
